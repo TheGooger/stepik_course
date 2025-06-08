@@ -5,3 +5,4 @@ def get_path(n):
         return n
     elif n == 2:
         return n
+    return get_path(n-1) + get_path(n-2)
